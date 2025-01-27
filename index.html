@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заяц</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="inf">
+        <img src="images/zayac.jpg" class="zay" />
+        <div class="exp">
+        <h1>Заяц</h1>
+        <p>Про зайца</p>
+      </div>
+    </div>
+      <div class="spisok red">
+        <h3>список</h3>
+        <ul class="link">
+          <li>
+            <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%B9%D1%82">
+              первый пункт</a
+            >
+          </li>
+          <li>второй пункт</li>
+        </ul>
+      </div>
+      <div class="card yellow">
+        <h3>другой список</h3>
+
+        <ol class="list">
+          <li>первый пункт</li>
+          <li>второй пункт</li>
+          <li>третий пункт</li>
+        </ol>
+      </div>
+      <div class="card green">
+        <h3>таблица</h3>
+        <table class="table">
+          <tr>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>32</td>
+            <td>33</td>
+          </tr>
+        </table>
+      </div>
+      <div class="contact card yellow">
+        <h3>форма</h3>
+        <form>
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Имя:</label>
+              <input type="text" id="name" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text">Отзыв:</label>
+
+            <textarea id="text" rows="2" cols="15"></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Отправить" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
